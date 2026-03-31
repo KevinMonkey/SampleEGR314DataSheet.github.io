@@ -10,3 +10,14 @@ blockquote{
         color: var(--md-typeset-color);
     }
 }
+
+.md-tabs {
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: auto; /* Firefox */
+}
+
+.md-tabs::-webkit-scrollbar {
+  height: 8px; /* Chrome/Edge */
+}
