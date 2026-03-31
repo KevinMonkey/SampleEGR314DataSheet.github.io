@@ -1,3 +1,13 @@
+.md-tabs {
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.md-tabs::-webkit-scrollbar {
+  height: 8px;
+}
+
 article{
     a {
         font-style:italic;
