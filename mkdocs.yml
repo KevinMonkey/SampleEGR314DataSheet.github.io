@@ -16,14 +16,14 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.overflow
+    - navigation.tabs.overflow
     - toc.follow    
     - navigation.top
     - navigation.path
     - navigation.indexes
     - navigation.prune
     - content.action.edit
-    - navigation.footer
+  #  - navigation.footer
   #  - navigation.sections
     - navigation.expand
   # - navigation.instant # doesn't work that well
