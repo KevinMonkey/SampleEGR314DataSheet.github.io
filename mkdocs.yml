@@ -16,7 +16,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    # - navigation.overflow
+    - navigation.overflow
     - toc.follow    
     - navigation.top
     - navigation.path
