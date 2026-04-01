@@ -1,30 +1,46 @@
-/* Hide scrollbar for top navigation tabs in Material for MkDocs */
+/* Make tabs horizontally scrollable and visible */
+.md-tabs {
+  position: relative;
+  z-index: 5;
+}
+
 .md-tabs__list {
   display: flex;
+  gap: 0.5rem;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: auto;                 /* allow horizontal scroll */
   overflow-y: hidden;
-  background: rgba(255, 255, 0, 0.25) !important;
-
-  /* Hide scrollbars */
-  -ms-overflow-style: none;     /* IE + Edge */
-  scrollbar-width: none;        /* Firefox */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;            /* Firefox */
+  scrollbar-color: rgba(0,0,0,0.25) transparent;
+  padding: 0.25rem 0.5rem;
 }
 
-.md-tabs__list::-webkit-scrollbar {
-  display: none;                /* Chrome/Safari */
+/* Ensure each tab does not shrink and keeps its width */
+.md-tabs__item,
+.md-tabs__link {
+  flex: 0 0 auto;                   /* prevent shrinking; keep intrinsic width */
+  min-width: 6rem;                  /* optional: ensure tappable width */
 }
 
-
-article{
-    a {
-        font-style:italic;
-        }
+/* WebKit scrollbar styling */
+.md-tabs__list::-webkit-scrollbar { height: 8px; }
+.md-tabs__list::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.25);
+  border-radius: 4px;
 }
 
-blockquote{
-    background: #ffc;
-    p,li{
-        color: var(--md-typeset-color);
-    }
+/* Correct plain-CSS selectors (no nesting) */
+article a {
+  font-style: italic;
+}
+
+blockquote {
+  background: #fff8cc;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid rgba(0,0,0,0.06);
+}
+blockquote p,
+blockquote li {
+  color: var(--md-typeset-color);
 }
