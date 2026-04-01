@@ -1,18 +1,17 @@
-/* Make the top tab bar horizontally scrollable */
-.md-tabs,
-.md-tabs__inner,
-.md-tabs__list {
-  overflow-x: auto !important;
-  overflow-y: hidden;
+.navbar {
+  display: flex;
   white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  /* Hide scrollbars (optional) */
+  -ms-overflow-style: none;     /* IE + Edge */
+  scrollbar-width: none;        /* Firefox */
+}
+.navbar::-webkit-scrollbar {
+  display: none;                /* Chrome/Safari */
 }
 
-/* Optional: visible scrollbar height */
-.md-tabs::-webkit-scrollbar,
-.md-tabs__inner::-webkit-scrollbar,
-.md-tabs__list::-webkit-scrollbar {
-  height: 8px;
-}
 
 
 article{
