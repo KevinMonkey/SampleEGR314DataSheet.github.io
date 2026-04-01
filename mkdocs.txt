@@ -16,7 +16,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    # - navigation.overflow
+    - navigation.overflow
     - toc.follow    
     - navigation.top
     - navigation.path
@@ -26,7 +26,7 @@ theme:
     - navigation.footer
   #  - navigation.sections
     - navigation.expand
-  # - navigation.instant # doesn't work that well
+#    - navigation.instant # doesn't work that well
 
 markdown_extensions:
   - attr_list #add attributes using curly brackets to images, see https://squidfunk.github.io/mkdocs-material/reference/images/
