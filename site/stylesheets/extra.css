@@ -1,3 +1,19 @@
+/* Make the top tab bar horizontally scrollable */
+.md-tabs,
+.md-tabs__inner,
+.md-tabs__list {
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* Optional: visible scrollbar height */
+.md-tabs::-webkit-scrollbar,
+.md-tabs__inner::-webkit-scrollbar,
+.md-tabs__list::-webkit-scrollbar {
+  height: 8px;
+}
+
 article{
     a {
         font-style:italic;
@@ -9,15 +25,4 @@ blockquote{
     p,li{
         color: var(--md-typeset-color);
     }
-}
-
-.md-tabs {
-  overflow-x: auto !important;
-  overflow-y: hidden;
-  white-space: nowrap;
-  scrollbar-width: auto; /* Firefox */
-}
-
-.md-tabs::-webkit-scrollbar {
-  height: 8px; /* Chrome/Edge */
 }
