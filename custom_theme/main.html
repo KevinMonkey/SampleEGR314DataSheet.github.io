@@ -8,3 +8,7 @@
 
     
 {% endblock %}
+
+{{% block header %}
+  {{ super() }}   {# This restores Material’s header + top nav #}
+{% endblock %}
