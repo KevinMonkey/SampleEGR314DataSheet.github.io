@@ -76,11 +76,11 @@ nav:
   - BOM: 03-BOM/BOM.md
   - Schematic: 04-Schematic/schematic.md
   - Power Budget: 05-Power-Budget/Power-Budget.md
-  - Test Scrolbar 1: 06-Test-Scrollbar-1/test1.md
-  - Test Scrolbar 2: 07-test-scrollbar-2/test2.md
-  - Test Scrolbar 3: 08-test-scrollbar-3/testing.md
-  - Test Scrolbar 4: 09-test-scrollbar-4/testing.md
-  - Test Scrolbar 5: 10-test-scrollbar-5/testing.md
+  - Test Scrolbar 1: 06-Testing-Scrollbar-1\test1.md
+  - Test Scrolbar 2: 07-testing-scrollbar-2/test2.md
+  - Test Scrolbar 3: 08-testing-scrollbar-3/testing.md
+  - Test Scrolbar 4: 09-testing-scrollbar-4/testing.md
+  - Test Scrolbar 5: 10-testing-scrollbar-5/testing.md
   - Appendix:
       - Overview: Appendix/index.md
       - Apen-1: Appendix/another-subfile.md
