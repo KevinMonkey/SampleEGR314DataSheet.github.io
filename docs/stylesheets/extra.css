@@ -1,33 +1,32 @@
-/* Make tabs horizontally scrollable and visible */
+/* Ensure tabs overflow and items do not shrink */
 .md-tabs {
   position: relative;
   z-index: 5;
 }
 
 .md-tabs__list {
-  display: flex;
+  display: flex !important;
   gap: 0.5rem;
   white-space: nowrap;
-  overflow-x: auto;                 /* allow horizontal scroll */
+  overflow-x: auto !important;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;            /* Firefox */
+  scrollbar-width: thin;
   scrollbar-color: rgba(0,0,0,0.25) transparent;
   padding: 0.25rem 0.5rem;
+  touch-action: pan-x; /* allow horizontal touch pan */
+  -ms-overflow-style: auto;
 }
 
-/* Ensure each tab does not shrink and keeps its width */
 .md-tabs__item,
 .md-tabs__link {
-  flex: 0 0 auto;                   /* prevent shrinking; keep intrinsic width */
-  min-width: 6rem;                  /* optional: ensure tappable width */
+  flex: 0 0 auto !important; /* prevent shrinking */
+  min-width: 6rem;
 }
 
-/* WebKit scrollbar styling */
-.md-tabs__list::-webkit-scrollbar { height: 8px; }
-.md-tabs__list::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.25);
-  border-radius: 4px;
+/* Make sure no ancestor is clipping pointer events */
+.md-header, .md-main, .md-content {
+  pointer-events: auto;
 }
 
 /* Correct plain-CSS selectors (no nesting) */
