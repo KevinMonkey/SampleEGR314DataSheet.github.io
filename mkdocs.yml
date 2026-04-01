@@ -71,19 +71,19 @@ extra:
 
 nav:
   - Home: index.md
-  - Block Diagram: Block-Diagram.md
-  - Component Selection: Component-Selection.md
-  - 03-BOM: BOM.md
-  - 04-Schematic: schematic.md
-  - 05-Power-Budget: Power-Budget.md
-  - 06-Test-Scrolbar-1: test1.md
-  - 07-Test-Scrolbar-2: test2.md
-  - 08-Test-Scrolbar-3: testing.md
-  - 09-Test-Scrolbar-4: testing.md
-  - 10-Test-Scrolbar-5: testing.md
+  - Block Diagram: 01-Block-Diagram/Block-Diagram.md
+  - Component Selection: 02-Component-Selection/Component-Selection.md
+  - BOM: 03-BOM/BOM.md
+  - Schematic: 04-Schematic/schematic.md
+  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - Test Scrolbar 1: 06-Test-Scrolbar-1/test1.md
+  - Test Scrolbar 2: 07-Test-Scrolbar-2/test2.md
+  - Test Scrolbar 3: 08-Test-Scrolbar-3/testing.md
+  - Test Scrolbar 4: 09-Test-Scrolbar-4/testing.md
+  - Test Scrolbar 5: 10-Test-Scrolbar-5/testing.md
   - Appendix:
-      - Overview: index.md
-      - Apen-1: another-subfile.md
-      - Apen-2: charts.md
-      - Apen-3: esp-32-table.md
-      - Apen-4: basic-markdown-examples.md
+      - Overview: Appendix/index.md
+      - Apen-1: Appendix/another-subfile.md
+      - Apen-2: Appendix/charts.md
+      - Apen-3: Appendix/esp-32-table.md
+      - Apen-4: Appendix/basic-markdown-examples.md
