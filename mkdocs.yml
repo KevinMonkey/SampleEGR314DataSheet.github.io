@@ -71,10 +71,10 @@ extra:
 
 nav:
   - Home: index.md
-  - 01-Block-Diagram: Block-Diagram.md
-  - 02-Component-Selection: Component-Selection
+  - Block Diagram: Block-Diagram.md
+  - Component Selection: Component-Selection.md
   - 03-BOM: BOM.md
-  - 04-Schematic: Schematic.md
+  - 04-Schematic: schematic.md
   - 05-Power-Budget: Power-Budget.md
   - 06-Test-Scrolbar-1: test1.md
   - 07-Test-Scrolbar-2: test2.md
