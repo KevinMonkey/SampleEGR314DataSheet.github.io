@@ -1,0 +1,29 @@
+/* Hide scrollbar for top navigation tabs in Material for MkDocs */
+.md-tabs__list {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  /* Hide scrollbars */
+  -ms-overflow-style: none;     /* IE + Edge */
+  scrollbar-width: none;        /* Firefox */
+}
+
+.md-tabs__list::-webkit-scrollbar {
+  display: none;                /* Chrome/Safari */
+}
+
+
+article{
+    a {
+        font-style:italic;
+        }
+}
+
+blockquote{
+    background: #ffc;
+    p,li{
+        color: var(--md-typeset-color);
+    }
+}
