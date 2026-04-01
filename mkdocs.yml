@@ -70,13 +70,15 @@ extra:
       name: 2023 Site
 
 nav:
-  - Home
-  - Block-Diagram
-  - Component-Selection
-  - BOM
-  - Schematic
-  - Power-Budget
-  - Test-Scrolbar-1
-  - Test-Scrolbar-2
-  - Test-Scrolbar-3
-  - Appendix
+  - Home: index.md
+  - Block-Diagram: Block-Diagram.md
+  - Component-Selection: Component-Selection
+  - BOM: BOM.md
+  - Schematic: Schematic.md
+  - Power-Budget: Power-Budget.md
+  - Test-Scrolbar-1: test1.md
+  - Test-Scrolbar-2: test2.md
+  - Test-Scrolbar-3: testing.md
+  - Test-Scrolbar-4: testing.md
+  - Test-Scrolbar-5: testing.md
+  - Appendix: index.md
