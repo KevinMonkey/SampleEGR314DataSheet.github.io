@@ -68,7 +68,15 @@ extra:
     - icon: fontawesome/regular/file-code
       link: /2026_spring
       name: 2023 Site
-          
+
 nav:
-  - ...
-  - ...
+  - Home
+  - Block-Diagram
+  - Component-Selection
+  - BOM
+  - Schematic
+  - Power-Budget
+  - Test-Scrolbar-1
+  - Test-Scrolbar-2
+  - Test-Scrolbar-3
+  - Appendix
